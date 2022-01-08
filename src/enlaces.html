@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enlaces</title>
+    <!--    fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!--    FAVICON-->
+    <link rel="icon" href="img/favicon.png" type="image/png"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="../node_modules/perfect-scrollbar/css/perfect-scrollbar.css">
+    
+    <script async type="module" src="../node_modules/perfect-scrollbar/dist/perfect-scrollbar.js"></script>
+    <script async type="module" src="./js/script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+    <div class="logo-box">
+        <a href="./"><img src="img/logo.png" alt="Logo de Accesibles Travels"></a>
+    </div>
+    
+    <div class="title">
+        <h1>Accesibles Travels</h1>
+    </div>
+</header>
+
+    <div class="container enlaces">
+        <section class="wrapper">
+        <article class="box">
+            <div class="main-image">
+                <picture>
+                    <source media="(min-width:920px )" srcset="img/img/img_enlace.webp 1x, img/img/img_enlaces.webp 2x">
+                    <img src="img/img/img_enlace.webp" loading="lazy"  alt="Accesible Travels ">
+                </picture>
+            </div>
+            <p>
+                Para el desarrollo de esta web, se han utilizado los siguientes recursos.
+            </p>
+        
+            <div class="tag-list">
+                <aside class="tag">
+                    <a href="https://www.barcelona.cat/es/que-hacer-en-bcn/banos-y-playas/accesibilidad"
+                       target="_blank">Playas de Barcelona</a>
+                </aside>
+            
+                <aside class="tag">
+                    <a href="https://www.travel-xperience.com/turismo-accesible/crucero-adaptado-para-personas-con-discapacidad-usuario-silla-ruedas"
+                       target="_blank">Cruceros</a>
+                </aside>
+            
+                <aside class="tag">
+                    <a href="https://www.siempreenlasnubes.com/" target="_blank">Globos</a>
+                </aside>
+            </div>
+        </article>
+    </section>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="img/logo.svg" alt="Logo de Accesibles Travels">
+            </div>
+        
+            <div class="footer-navigation">
+                <nav class="navigation">
+                    <label for="show-menu" class="show-menu"><img src="img/menu-oscuro.png" alt="menu"></label>
+                    <input type="checkbox" id="show-menu" role="button">
+                
+                    <ul id="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="presentacion.html">Presentación</a></li>
+                        <li class="dropdown">
+                            <a href="categoria.html">Categoría</a>
+                            <ul class="submenu">
+                                <li><a href="playa.html">A la playa</a></li>
+                                <li><a href="globo.html">En globo</a></li>
+                                <li><a href="crucero.html">De crucero</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="enlaces.html">Enlaces</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+        </div>
+    </footer>
+</body>
+</html>
